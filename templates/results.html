@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    {% if title %}
+        {{ title }}
+    {% else %}
+        Web-scraper | Result Page
+    {% endif%}
+{% endblock %}
+
+
+{% block body %}
+<h1>Flipkart Web-scraper Project</h1>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>PRODUCT NAME</th>
+            <th>USER</th>
+            <th>COMMENT TITLE</th>
+            <th>COMMENTS</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        {% for row in data| reverse %}
+        <tr>
+            <td>{{ row.get('product_name') }}</td>
+            <td>{{ row.get('customer_name') }}</td>
+            <td>{{ row.get('review_title') }}</td>
+            <td>{{ row.get('review_comments') }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
