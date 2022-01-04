@@ -1,5 +1,7 @@
 # Web Scraper App
 A Selenium based web scraper for capturing customer sentiments - reviews and comments
+##### App Link - https://web-scraper-selenium.herokuapp.com/
+
 
 ### Ways to set it up:
 
