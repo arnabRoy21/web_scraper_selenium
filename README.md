@@ -14,7 +14,7 @@ A Selenium based web scraper for capturing customer sentiments - reviews and com
 1. Install heroku CLI and create a heroku web app - **web-scraper-selenium**
 2. Add environment variables - 
    - CHROMEDRIVER_PATH = **/app/.chromedriver/bin/chromedriver**
-   - GOOGLE_CHROME_BIN = **/app/.apt/usr/bin/google-chrome*
+   - GOOGLE_CHROME_BIN = **/app/.apt/usr/bin/google-chrome**
    - DB_USER = ***db_user***
    - DB_PASSWORD = ***password***
 3. Add below three build packs - 
