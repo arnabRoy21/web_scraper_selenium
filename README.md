@@ -4,7 +4,7 @@ A Selenium based web scraper for capturing customer sentiments - reviews and com
 ### Ways to set it up:
 
 1. Clone this project to your local project directory.
-   - git clone https://github.com/arnabRoy21/**web_scraper_selenium**.git
+   - git clone https://github.com/arnabRoy21/web_scraper_selenium.git
 2. Make any enhancements to code and commit the changes.
    - git add .
    - git commit -m *message*
