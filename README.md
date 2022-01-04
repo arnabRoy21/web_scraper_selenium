@@ -11,7 +11,7 @@ A Selenium based web scraper for capturing customer sentiments - reviews and com
 
 ### Heroku Deployment Steps:
 
-1. Install heroku cli and create a heroku web app - **web-scraper-selenium**
+1. Install heroku CLI and create a heroku web app - **web-scraper-selenium**
 2. Add environment variables - 
    - CHROMEDRIVER_PATH = **/app/.chromedriver/bin/chromedriver**
    - GOOGLE_CHROME_BIN = **/app/.apt/usr/bin/google-chrome*
@@ -21,7 +21,7 @@ A Selenium based web scraper for capturing customer sentiments - reviews and com
    - https://github.com/heroku/heroku-buildpack-chromedriver
    - https://github.com/heroku/heroku-buildpack-google-chrome
    - heroku/python
-4. In heroku cli, cd to project folder and run - heroku login
+4. In heroku CLI, cd to project folder and run - heroku login
 5. Add a heroku git remote for the already created heroku web app
    - heroku git:remote -a **web-scraper-selenium**
 6. Deploy the app
